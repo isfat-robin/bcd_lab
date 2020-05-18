@@ -1,0 +1,79 @@
+
+	body{
+		background: black;
+		text-align: center;
+		color: red;
+	}
+	.logo{
+		width: 300px;
+		margin: 10px;
+	}
+
+	.box{
+		position: relative;
+		height: 100%;
+	}
+
+
+	.data>p{
+		text-align: center;
+		color: yellow;
+		font-size: 20px;
+	}
+
+
+	h1,h2,h3,h4,h5,h6{
+		color:aqua;
+		margin: 10px;
+	}
+
+.frm-box{
+		padding: 5px;
+		margin: 0 auto;
+		border-radius: 30px;
+		border: 1px solid red;
+		max-height: 210px;
+		width: 500px;
+		box-shadow: 0px 0px 52px 1px rgba(250,20,20,0.75);
+	}
+
+
+.frm-box>form{
+	margin: 0 auto;
+	width: 300px;
+}
+
+.frm-box>form>input[type=text],
+.frm-box>form>input[type=password],
+.frm-box>form>input[type=submit]{
+	border: 0;
+	width: 200px;
+	padding: 5px 20;
+	display: block;
+	border: 2px solid red;
+	background: none;
+	margin: 5px auto;
+	border-radius: 20px;
+	transition: 0.2s;
+	text-align: center;
+	color: #2ECCFA;
+	font-size: 15px;
+
+}
+
+.frm-box>form>input[type=submit]{
+	cursor: pointer;
+	color: whitesmoke ;
+	background: #154360;
+	height: 25px;
+	}
+.frm-box>form>input[type=submit]:hover{
+	background: #cb4335;
+	color: aqua;
+}
+
+.frm-box>p{
+	text-align: center;
+}
+
+	

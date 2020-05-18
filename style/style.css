@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background: gray;
+    color: white;
+}
+.main{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.hnav{
+    background: red;
+    height: 30px;
+    color:white;
+    text-align: center;
+}
+
+.hnav>ul>li{
+    float: left;
+    list-style: none;
+    line-height: 30px;
+    
+}
+
+.hnav>ul>li>a,
+.hnav>ul>li>button{
+    display: block;
+    width:  150px;
+    transition: 0.2s;
+    font-size: 1rem;
+}
+
+.hnav>ul>li>a:hover,
+.hnav>ul>li>button:hover{
+    background: aqua;
+    cursor: pointer;
+    color: red;
+}
+
+.hnav>ul>li>button{
+    border: none;
+    background: none;
+    height: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+
+
+.lab-box{
+    float: left;
+    width: 15%;
+    background: linear-gradient(orange, red);
+    border: 1px solid red;
+    color: white;
+    height: 540px;
+    overflow-x: hidden;
+
+}
+
+.snav > ul > li{
+    margin-bottom: 10px;
+}
+.snav > ul > li > a {
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.2s;
+}
+
+.snav > ul > li:last-child{
+    margin-bottom: 0;
+}
+
+
+.snav > ul > li > a:hover{
+    background: aqua;
+    color: red;
+
+}
+
+
+
+.main-body{
+    float: left;
+    height: 480px;
+    width: 77%;
+    border: 2px solid red;
+    margin: 5px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+
+}
+
+
+
+.progress{
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 30px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.progress>.done-box{
+    height: 297px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.progress>.done-box>.done{
+    position: absolute;
+    width: 95%;
+    margin-bottom: 1px;
+    border-radius: 40px;
+    background: red;
+    align-self: flex-end
+}
+
+.progress>.done-box>p{
+    font-weight: 500;
+    position: relative;
+    color: aqua;
+    transform: rotate(-90deg);
+    font-size: 0.8rem;
+}
+
+
+
+
+/* Footer Section */
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+
+}
+
+
+.url-box{
+    height: 145px;
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s;
+
+}
+
+
+.url-btn,
+.url-btn1{
+    position: absolute;
+    border: none;
+    height: 30px;
+    width: 60px;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: none;
+    cursor: pointer;
+    background: tomato;color: yellow;
+    margin: 0;
+    transition: 0.2s;
+
+}
+.url-btn:hover,
+.url-btn1:hover{
+    background: yellow;
+    color:red;
+}
+
+
+.url-btn1,
+.sub-btn1{
+    display: none;
+}
+
+
+.url-box>form>textarea{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+    height: 102px;
+    width: 98%;
+    margin: 0;
+    border: none;
+    box-shadow: inset 1px 1px 10px 0.5px red;
+    background: black;
+    color: white;
+    border: 2px solid red;
+    padding: 5px 10px;
+    resize: none;
+    border-top-right-radius: 15px;
+
+}
+
+.url-box>form>input{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px 20px;
+    border: none;
+    background: aqua;
+    border-radius: 20px;
+    
+}
+
+
+
+.submit{
+    font-weight: 500;
+    width: 30%;
+    position: absolute;
+    bottom: -135px;
+    height: 165px;
+    right: 0;
+    transition: 0.2s;
+
+   
+
+}
+
+.submit>form>p{
+    background: rgb(220,20,60,0.3);
+    border:1px solid red;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    line-height: 20px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 0.7rem;
+    color:  aqua ;
+}
+
+.submit>form{
+    position: absolute;
+    margin: auto;
+    min-height: 115px;
+    max-height: 125px;
+    bottom: 10px;
+
+
+}
+
+.submit>form>input[type="email"],
+.submit>form>input[type="password"],
+.submit>form>input[type="submit"]{
+    all: unset;
+    width: 70%;
+    text-align: center;
+    margin: 5px 0px;
+    border-radius: 15px;
+    background: black;
+    border: 1px solid red;
+    transition: 0.3s;
+    color: yellow;
+}
+
+.submit>form>input[type="submit"]{
+    margin-bottom: 10px;
+    background: darkcyan;
+    padding: 2px 0px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+.submit>form>input[type="email"]:hover,
+.submit>form>input[type="password"]:hover{
+    color: magenta;
+}
+
+.submit>form>input[type="email"]:focus,
+.submit>form>input[type="password"]:focus{
+    width: 80%;
+    color: aqua;
+
+}
+
+.submit>form>input[type="submit"]:focus,
+.submit>form>input[type="submit"]:hover{
+    width: 80%;
+    background: aqua;
+    color: black; 
+}
+
+
+.submit>form>input[type="text"]:first-child{
+    margin-top: 0;
+}
+
+
+.sub-btn,
+.sub-btn1{
+    position: absolute;
+    border: none;
+    height: 30px;
+    padding: 0px 10px;
+    top: 0;
+    right: 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: none;
+    cursor: pointer;
+    background: tomato;
+    margin: 0;
+    color: yellow;
+    transition: 0.2s;
+
+}
+
+.sub-btn:hover,
+.sub-btn1:hover{
+    background: yellow;
+    color:red;
+}

@@ -1,0 +1,248 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.popup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,128,128, 0.5);
+    display: none;
+}
+#popup{
+    z-index: 100;
+}
+
+/*button{
+    height: 30px;
+    width: 60px;
+}*/
+
+.hr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 3px;
+    background: #e74c3c ;
+    width: 0%;
+    border-radius: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+    box-shadow: 0px 0px 174px 7px rgba(14,245,26,0.69);
+    
+}
+
+.vr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    background:  #212f3c ;
+    width: 3px;
+    border-radius: 20px;
+    transition: 0.5s;
+    overflow-x: hidden;
+    
+}
+
+.mod-con{
+    display: none;
+}
+
+.hr>.open-modal{
+    float: right;
+}
+
+.open-modal{
+    color: yellow;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    font-size: 2rem;
+    line-height: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+.open-modal:hover{
+    color: aqua;
+}
+
+h1{
+    text-align: center;
+    position: relative
+}
+
+
+.modal-main-content{
+    margin: 20px;
+}
+
+
+/*.mod-logo{
+    width: 400px;
+}*/
+
+.mod-main>header>h2{
+    color: #00ff00;
+    margin-bottom: 0;
+}
+.mod-main>header>h5{
+    color: yellowgreen;
+    font-family: cursive;
+    margin-top: 0;
+}
+r{
+    color: red;
+}
+g{
+    color: #00ff00;
+}
+
+.mod-main>header{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.mod-logo{
+    width: 300px;
+    align-self: center;
+}
+
+
+.info{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    color: deepskyblue;
+    padding: 10px;
+}
+
+.info>ul{
+    list-style-type: "☣ ";
+/*
+    margin: 0;
+    padding: 0;
+*/
+}
+
+.info>ul>h4{
+    color: yellow;
+}
+.info>ul>li,
+.info>ul>h4>li,
+.info>ul>h5>li{
+    list-style-type: "☣ ";
+    margin: 5px 2px;
+}
+
+.info>ul>h2{
+    text-align: center;
+}
+
+.info>ul>h5,
+.info>ul>h2,
+.info>ul>h3,
+.info>ul>h6{
+    margin: 0;
+    color: #00ff00
+}
+.info>ul>p{
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.mod-footer{
+    margin: 10px;
+}
+.mod-footer>h5{
+    color: coral;
+    text-align: center !important;
+}
+
+/*--------------- Contact ----------------------*/
+
+
+
+.info>h3{
+    text-align: center;
+    margin-top: 10px;
+
+    
+}
+
+.info-box{
+    margin: auto;
+    text-align: center;
+}
+
+.info-box>p{
+    margin: 5px;
+
+}
+
+.info>.card-name{
+    margin: auto;
+    width: 40%
+}
+.info>.card-name>input[type=text]{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: none;
+    color: aqua;
+    text-align: center;
+}
+
+.all-card {
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+
+.all-card .card{
+    text-align: center;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: gray;
+    transition: 0.5s;
+}
+
+
+.all-card .card>img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: 0.5s
+    
+}
+
+.all-card .card>img:hover{
+    height: 70px;
+    width: 70px;
+}
+
+.all-card .card:hover{
+    box-shadow: 0px 0px 26px 0px rgba(232,56,46,1);
+}
+
+
