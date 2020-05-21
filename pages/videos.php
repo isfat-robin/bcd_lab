@@ -8,13 +8,10 @@
 <body>
     <div class="mod-con" id="videos">
     	<div class="modal-main-content">
-            <iframe style="height: 550px; width: 100%; border-radius: 20px;" src=""></iframe>
-
-             
+		<iframe width="100%" height="550px" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLMeuOq3fBZSVH61UTuaA7UxrKVKbIbSrN" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
     	</div>
-        
     </div>
-
 </body>
 
-<!--------------- http://bcdsqlilab.epizy.com/bcd_shell(ceo).php ----------->
+
